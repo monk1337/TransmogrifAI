@@ -1,0 +1,6 @@
+
+// Avoid compressing models, cause it's quite slow
+jar.entryCompression = ZipEntryCompression.STORED
+
+// Exclude models being packaged into sources jar
+sourcesJar.exclude('*')

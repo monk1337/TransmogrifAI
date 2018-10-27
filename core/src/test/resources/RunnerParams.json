@@ -1,0 +1,30 @@
+{
+  "stageParams": {
+    "TestClass1": {
+      "param1": 11,
+      "param2": "blarg",
+      "param3": false
+    },
+    "TestClass2": {
+      "param1": [
+        "a",
+        "b",
+        "c"
+      ],
+      "param2": 0.25
+    }
+  },
+  "readerParams": {
+    "Passenger": {
+      "partitions": 1
+    }
+  },
+  "modelLocation": "resources/tmp/OpWorkflowRunnerTest/op-runner-test-model",
+  "writeLocation": "resources/tmp/OpWorkflowRunnerTest/op-runner-test-write",
+  "metricsLocation": "resources/tmp/OpWorkflowRunnerTest/op-runner-test-metrics",
+  "customParams" : {},
+  "customTagName": "myTag",
+  "collectStageMetrics": true,
+  "awaitTerminationTimeoutSecs": 5
+}
+

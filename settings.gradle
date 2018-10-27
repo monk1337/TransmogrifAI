@@ -1,0 +1,5 @@
+enableFeaturePreview('STABLE_PUBLISHING')
+
+rootProject.name='transmogrifai'
+
+include 'utils', 'features', 'readers', 'core', 'models', 'testkit', 'cli', 'templates:simple', 'local'
